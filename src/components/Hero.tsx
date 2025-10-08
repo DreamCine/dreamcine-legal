@@ -90,14 +90,55 @@ const Hero = () => {
               Share an idea, and we'll turn it into a film or series. Here, anyone can become a creator, while audiences discover unique movies made by people from around the world. The future of cinema starts here.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-in" style={{
-            animationDelay: "0.7s"
-          }}>
-              <a href="#" className="flex items-center justify-center group w-full sm:w-auto text-center bg-black rounded-lg px-6 py-3 hover:bg-gray-800 transition-colors">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg" alt="Download on App Store" className="h-8 w-auto" />
+            <div
+              className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-in"
+              style={{
+                animationDelay: "0.7s",
+              }}
+            >
+              <a
+                href="#" // TODO: replace with real App Store link
+                className="group relative flex w-full sm:w-auto items-center gap-4 rounded-xl border border-white/15 bg-[#0f0f10] px-5 py-4 shadow-lg shadow-black/40 transition-all duration-300 hover:-translate-y-1 hover:border-white/25 hover:shadow-black/60"
+              >
+                <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-[#2b6cff] via-[#2f8fff] to-[#5bb9ff] p-2 transition-all duration-300 group-hover:scale-105 group-hover:shadow-lg">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg"
+                    alt="App Store icon"
+                    className="h-full w-full object-contain"
+                  />
+                </span>
+                <span className="flex flex-col text-left">
+                  <span className="text-xs uppercase tracking-wide text-white/60">
+                    Download on the
+                  </span>
+                  <span className="text-lg font-semibold text-white">
+                    App Store
+                  </span>
+                </span>
+                <ArrowRight className="ml-auto hidden h-5 w-5 text-white/60 transition-transform duration-300 group-hover:translate-x-1 sm:block" />
+                <span className="pointer-events-none absolute inset-0 rounded-xl border border-white/5 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
               </a>
-              <a href="#" className="flex items-center justify-center group w-full sm:w-auto text-center bg-black rounded-lg px-6 py-3 hover:bg-gray-800 transition-colors">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" className="h-8 w-auto" />
+              <a
+                href="#"
+                className="group relative flex w-full sm:w-auto items-center gap-4 rounded-xl border border-emerald-200/20 bg-[#0f0f10] px-5 py-4 shadow-lg shadow-emerald-900/30 transition-all duration-300 hover:-translate-y-1 hover:border-emerald-200/40 hover:shadow-emerald-900/50"
+              >
+                <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-[#00e676] via-[#00c853] to-[#1de9b6] p-2 transition-all duration-300 group-hover:scale-105 group-hover:shadow-lg">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_Play_2022_icon.svg"
+                    alt="Google Play icon"
+                    className="h-full w-full object-contain"
+                  />
+                </span>
+                <span className="flex flex-col text-left">
+                  <span className="text-xs uppercase tracking-wide text-white/80">
+                    Get it on
+                  </span>
+                  <span className="text-lg font-semibold text-white">
+                    Google Play
+                  </span>
+                </span>
+                <ArrowRight className="ml-auto hidden h-5 w-5 text-white/70 transition-transform duration-300 group-hover:translate-x-1 sm:block" />
+                <span className="pointer-events-none absolute inset-0 rounded-xl border border-white/10 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
               </a>
             </div>
           </div>
