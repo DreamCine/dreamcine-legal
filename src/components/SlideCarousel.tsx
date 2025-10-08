@@ -41,8 +41,8 @@ const SlideCarousel = () => {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
+          <CarouselPrevious className="left-3 sm:left-5 md:left-6 lg:-left-12" />
+          <CarouselNext className="right-3 sm:right-5 md:right-6 lg:-right-12" />
         </Carousel>
       </div>
     </section>
