@@ -106,24 +106,24 @@ const Navbar = () => {
             Home
           </a>
           <a 
-            href="#ai-movies" 
+            href="https://dreamcine.app/terms.html" 
             className="text-xl font-semibold py-3 px-6 w-full text-center rounded-lg hover:bg-gray-100" 
             onClick={() => {
               setIsMenuOpen(false);
               document.body.style.overflow = '';
             }}
           >
-            About
+            Terms
           </a>
           <a 
-            href="#contact" 
+            href="https://dreamcine.app/privacy.html" 
             className="text-xl font-semibold py-3 px-6 w-full text-center rounded-lg hover:bg-gray-100" 
             onClick={() => {
               setIsMenuOpen(false);
               document.body.style.overflow = '';
             }}
           >
-            Contact
+            Privacy
           </a>
         </nav>
       </div>
