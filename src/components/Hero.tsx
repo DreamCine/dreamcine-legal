@@ -81,7 +81,7 @@ const Hero = () => {
             <h1 className="section-title text-3xl sm:text-4xl lg:text-5xl xl:text-6xl leading-tight opacity-0 animate-fade-in text-white" style={{
             animationDelay: "0.3s"
           }}>
-              DreamCine: Where Your<br className="hidden sm:inline" />Stories Come Alive
+              DreamCine: Where Your<br className="hidden sm:inline" />&nbsp;Stories Come Alive
             </h1>
             
             <p style={{
