@@ -75,6 +75,7 @@ const Navbar = () => {
           </a>
           <a href="https://dreamcine.app/terms.html" className="nav-link text-white hover:text-orange-400 font-semibold">Terms</a>
           <a href="https://dreamcine.app/privacy.html" className="nav-link text-white hover:text-orange-400 font-semibold">Privacy</a>
+          <a href="https://dreamcine.app/support.html" className="nav-link text-white hover:text-orange-400 font-semibold">Support</a>
         </nav>
 
         {/* Mobile menu button - increased touch target */}
