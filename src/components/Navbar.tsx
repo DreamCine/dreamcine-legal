@@ -125,6 +125,16 @@ const Navbar = () => {
           >
             Privacy
           </a>
+          <a 
+            href="https://dreamcine.app/support.html" 
+            className="text-xl font-semibold py-3 px-6 w-full text-center rounded-lg hover:bg-gray-100" 
+            onClick={() => {
+              setIsMenuOpen(false);
+              document.body.style.overflow = '';
+            }}
+          >
+            Support
+          </a>
         </nav>
       </div>
     </header>
