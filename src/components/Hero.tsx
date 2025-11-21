@@ -97,7 +97,8 @@ const Hero = () => {
               }}
             >
               <a
-                href="#" // TODO: replace with real App Store link
+                target="_black"
+                href="https://apps.apple.com/ca/app/dreamcine/id6751565962"
                 className="group relative flex w-full sm:w-auto items-center gap-4 rounded-xl border border-white/15 bg-[#0f0f10] px-5 py-4 shadow-lg shadow-black/40 transition-all duration-300 hover:-translate-y-1 hover:border-white/25 hover:shadow-black/60"
               >
                 <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-[#2b6cff] via-[#2f8fff] to-[#5bb9ff] p-2 transition-all duration-300 group-hover:scale-105 group-hover:shadow-lg">
