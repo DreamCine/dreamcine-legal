@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ybriliov.dreamcineapp",
+      "sha256_cert_fingerprints": [
+        "F0:07:3B:5D:A2:D0:80:30:8D:47:86:28:A7:22:35:9C:39:7C:4F:7C:14:2D:48:3A:BA:D9:5A:EC:FD:6D:A1:52"
+      ]
+    }
+  }
+]
